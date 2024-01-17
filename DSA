@@ -1,0 +1,39 @@
+Jan 15 
+
+	started with linked list.
+	
+    Q1.  Construct a LL from a vector 
+    	
+    	Node* constructLL(vector<int>& arr) {
+    	    //declare a new node as head
+	    Node* head = new Node(arr[0]);
+	    
+	    // temp initially pointing to head
+	    Node* mover = head ;
+	    
+	    // iterate and add elements individually 
+	    for(int i = 1; i< arr.size(); i++){
+		Node* temp = new Node(arr[i]);
+		mover->next = temp;
+		mover = mover->next;
+	    	}
+	    //return the on pointing to head
+	    return head; 
+	   }
+
+	Q2. Inserting a node in a linked list 
+		
+		//iterate till the positon create a new node 
+		add the desired value make the prev node point to
+		the newly created node ... and the new node will 
+		point to the next node ..
+		
+	Q3. Delete a node in LL
+		
+		// les say the node to delete is node x..
+		copy the data from x+1 node to x node and 
+		make the x node point to x+2 node.
+		
+Jan 16
+	
+	
