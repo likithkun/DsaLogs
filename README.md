@@ -2,7 +2,7 @@ Jan 15
 
 	started with linked list.
 	
-    Q1.  Construct a LL from a vector 
+    ##Q1.  Construct a LL from a vector 
     	
     	```Node* constructLL(vector<int>& arr) {
     	    //declare a new node as head
@@ -21,14 +21,14 @@ Jan 15
 	    return head; 
 	   }
 
-	Q2. Inserting a node in a linked list 
+	##Q2. Inserting a node in a linked list 
 		
 		//iterate till the positon create a new node 
 		add the desired value make the prev node point to
 		the newly created node ... and the new node will 
 		point to the next node ..
 		
-	Q3. Delete a node in LL
+	##Q3. Delete a node in LL
 		
 		// les say the node to delete is node x..
 		copy the data from x+1 node to x node and 
@@ -38,7 +38,7 @@ Jan 15
 		
 Jan 16
 	
-	Q1. Merge two sorted linked lists 
+	##Q1. Merge two sorted linked lists 
 		
 		just looked at the question didn't solve it.
 
@@ -46,7 +46,7 @@ Jan 16
 		
 Jan 17 
 	
-	Q1. Merge two sorted LL
+	##Q1. Merge two sorted LL
 	 Didnt solve it this day either spent a lot of 
 	 time on youtube and other useless things like that
 
@@ -54,7 +54,7 @@ Jan 17
 
 Jan 18 
 
-	Q1. Merge two sorted LL (solve in IOT lab hehe)
+	##Q1. Merge two sorted LL (solve in IOT lab hehe)
 		
 		You take two pointer make sure that the l1 is always 
 		pointing to the smaller lx->val , iterate through l1
@@ -85,7 +85,7 @@ Jan 18
 		    return res;
     	}
     	
-	Q2. Delete Nth node from behind of a LL
+	##Q2. Delete Nth node from behind of a LL
 	
 		Nth from behind is len - n + 1 th node from the begining
 		Declare two pointers pointing to head move only  the 
