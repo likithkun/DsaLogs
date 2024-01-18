@@ -4,7 +4,7 @@ Jan 15
 	
     Q1.  Construct a LL from a vector 
     	
-    	Node* constructLL(vector<int>& arr) {
+    	```Node* constructLL(vector<int>& arr) {
     	    //declare a new node as head
 	    Node* head = new Node(arr[0]);
 	    
