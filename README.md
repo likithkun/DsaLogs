@@ -4,7 +4,8 @@ Jan 15
 	
     ##Q1.  Construct a LL from a vector 
     	
-    	```Node* constructLL(vector<int>& arr) {
+    	<code>
+     	Node* constructLL(vector<int>& arr) {
     	    //declare a new node as head
 	    Node* head = new Node(arr[0]);
 	    
@@ -20,7 +21,8 @@ Jan 15
 	    //return the on pointing to head
 	    return head; 
 	   }
-
+    	</code>
+	
 	##Q2. Inserting a node in a linked list 
 		
 		//iterate till the positon create a new node 
