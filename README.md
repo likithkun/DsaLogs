@@ -3,13 +3,12 @@ Jan 15
 	started with linked list.
 	
     ##Q1.  Construct a LL from a vector 
-    	
-    	<code>
+
      	Node* constructLL(vector<int>& arr) {
     	    //declare a new node as head
 	    Node* head = new Node(arr[0]);
 	    
-	    // temp initially pointing to head
+	    //temp initially pointing to head
 	    Node* mover = head ;
 	    
 	    // iterate and add elements individually 
@@ -21,7 +20,6 @@ Jan 15
 	    //return the on pointing to head
 	    return head; 
 	   }
-    	</code>
 	
 	##Q2. Inserting a node in a linked list 
 		
